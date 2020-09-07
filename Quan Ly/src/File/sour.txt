@@ -1,4 +1,4 @@
-id | name | gender | numberPhone | mark1 | mark2 | mark3 | mark4 | avgMark
-01  | hiep  | nam  | 0988888888  | 8.0  | 8.0  | 8.0  | 8.0  | 8.0
-02  | nam  | nu  | 0811111111  | 9.0  | 9.0  | 9.0  | 9.0  | 9.0
-03  | hu  | nu  | 0899999999  | 8.8  | 8.8  | 8.8  | 8.8  | 8.8
+sodienthoai | name | gender | numberPhone | mark1 | mark2 | mark3 | mark4 | avgMark
+01  | hiep  | nam  | 0912222222  | 8.0  | 8.0  | 8.0  | 8.0  | 8.0
+02  | nam  | nam  | 0899999999  | 9.0  | 9.0  | 9.0  | 9.0  | 9.0
+03  | hoagn nhu thuy  | nu  | 0399999999  | 8.8  | 8.8  | 8.8  | 8.8  | 8.8

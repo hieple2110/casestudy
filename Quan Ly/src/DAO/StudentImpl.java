@@ -95,25 +95,19 @@ public class StudentImpl implements StudentDAO {
 
     @Override
     public void sort() {
-        List<Students> studentsList = new ArrayList<>(listStudent.values());
-        Collections.sort(studentsList);
-        display();
+        FileIO.readerStudent();
+        List<Map.Entry<String, Students>> studentList = new ArrayList<Map.Entry<String, Students>>(listStudent.entrySet());
+        studentList.sort(new Comparator<Map.Entry<String, Students>>() {
+            @Override
+            public int compare(Map.Entry<String, Students> o1, Map.Entry<String, Students> o2) {
+                return o2.getValue().getAvgMark().compareTo(o1.getValue().getAvgMark());
+            }
+        });
+        for (Map.Entry<String, Students> list: studentList){
+            System.out.println(list);
+        }
         FileIO.writerStudent(listStudent);
-//        for (var i : studentsList){
-//            System.out.println(i);
-//        }
-//        List<Map.Entry<String, Students>> studentList = new ArrayList<Map.Entry<String, Students>>(listStudent.entrySet());
-
-//        studentList.sort(new Comparator<Map.Entry<String, Students>>() {
-//            @Override
-//            public int compare(Map.Entry<String, Students> o1, Map.Entry<String, Students> o2) {
-//                return o2.getValue().getAvgMark().compareTo(o1.getValue().getAvgMark());
-//            }
-//        });
-//        for (Map.Entry<String, Students> list: studentList){
-//            System.out.println(list);
-//        }
-//        System.out.println("Sắp xếp thành công.");
+        System.out.println("Sắp xếp thành công.");
     }
 
     @Override

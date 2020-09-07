@@ -1,4 +1,4 @@
 id | name | gender | numberPhone | mark1 | mark2 | mark3 | mark4 | avgMark
-01  | nguyen ngoc ngan  | nam  | 0988887777  | 8.0  | 8.0  | 8.0  | 8.0  | 8.0
-02  | nguyen cao ky duyen  | nu  | 0866666666  | 9.0  | 9.0  | 9.0  | 9.0  | 9.0
-03  | tran le dan nguyen  | nam  | 0344444444  | 8.5  | 8.5  | 8.5  | 8.5  | 8.5
+01  | hiep  | nam  | 0988888888  | 8.0  | 8.0  | 8.0  | 8.0  | 8.0
+02  | nam  | nu  | 0811111111  | 9.0  | 9.0  | 9.0  | 9.0  | 9.0
+03  | hu  | nu  | 0899999999  | 8.8  | 8.8  | 8.8  | 8.8  | 8.8

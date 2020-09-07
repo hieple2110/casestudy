@@ -7,7 +7,7 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 
 public class FileIO {
-    public static final String FILE_HEADER = "id | name | gender | numberPhone | mark1 | mark2 | mark3 | mark4 | avgMark";
+    public static final String FILE_HEADER = "sodienthoai | name | gender | numberPhone | mark1 | mark2 | mark3 | mark4 | avgMark";
     public static final String line = "\n";
     public static final String comma = "  | ";
     public static final String filename = "src/File/sour.txt";
